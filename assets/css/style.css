@@ -1,0 +1,58 @@
+/**Author
+Name: Monirozzaman Moman
+email: moman_engr@hotmail.com
+ */
+
+/*
+======Index=====
+1. Header/Navigation
+2. Hero
+3. Fusce at
+4. Facilisis
+5. Ante donec
+6. Blandit rhoncus
+7. Placerat
+ */
+
+/*
+========Theme CSS Start======
+ */
+
+/*=====Global CSS============*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: .9em;
+}
+
+/*====Navigation Section===*/
+#mainNav{
+    background-color: #EDEFF1;
+    padding: 27px 0;
+}
+.navbar-brand{
+    padding-left: 15%!important;
+}
+.logo{
+    width: 105px!important;
+}
+.nav-link{
+    color: #31353E;
+}
+.nav-link.js-scroll-trigger.active{
+    background-color: #DD4B2B;
+    color: #EDEFF1;
+    border: none;
+    border-radius: 30px;
+    padding: 7px 15px;
+}
+
+/*=====Hero Section========*/
+.hero-section{
+    background: url(../images/hero-bg.png) no-repeat top center;
+    background-size: cover;
+}
