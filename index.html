@@ -8,15 +8,15 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Scrolling Nav - Start Bootstrap Template</title>
+  <title>Panakeia</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,300,400,600,700&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- WOW/Animate CSS --->
-  <link href="vendor/wow/css/animate.css">
+  <link href="vendor/wow/css/animate.css" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,14 +38,14 @@
   <header>
     <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <a class="navbar-brand js-scroll-trigger wow bounceInLeft" href="#page-top">
             <img src="assets/images/logo.png" class="img-fluid logo" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-th"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
+          <ul class="navbar-nav  mx-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#fusceAt">Fusce at</a>
             </li>
@@ -72,77 +72,101 @@
   <section class="hero-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-md-8 col-lg-8 offset-md-2 offset-lg-2 ">
           <h1>Integer at tortor ut magna</h1>
           <h5>finibus lobortis sed quis tellus.</h5>
         </div>
       </div>
       <div class="row">
-        <div class="co1-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="assets/images/food1.png" class="img-fluid" alt="food">
+        <div class="co1-12 col-sm-12 col-md-4 col-lg-4 text-center wow lightSpeedIn">
+          <img src="assets/images/food1.png" class="img-fluid hero-food" alt="food">
           <h3>Tincidunt</h3>
           <p>Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus.
             Nullam tempus egestas efficitur. Sed quam dolor.
           </p>
         </div>
-        <div class="co1-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="assets/images/food2.png" class="img-fluid" alt="food">
+        <div class="co1-12 col-sm-12 col-md-4 col-lg-4 text-center wow lightSpeedIn ">
+          <img src="assets/images/food2.png" class="img-fluid hero-food" alt="food">
           <h3>Duis bibendum</h3>
           <p>Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo,
             ullamcorper non diam sit amet, luctus condimentum metus. In hac habitasse platea dictumst.
           </p>
         </div>
-        <div class="co1-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="assets/images/food3.png" class="img-fluid" alt="food">
+        <div class="co1-12 col-sm-12 col-md-4 col-lg-4 text-center wow lightSpeedIn">
+          <img src="assets/images/food3.png" class="img-fluid hero-food" alt="food">
           <h3>Donec ligula</h3>
           <p>Nullam tempus egestas efficitur. Sed quam dolor, vulputate sed mattis et, sodales quis orci.
             Ut arcu arcu, faucibus eu risus blandit,.
           </p>
         </div>
-        <button type="button" class="btn btn-light">Read More</button>
+        <button type="button" class="btn btn-light btn-head">Read More</button>
       </div>
     </div>
   </section>
   <!-- Hero Section End -->
 
-  <!-- Fusce at Section Start -->
+  <!-- Fusce at / News Section Start -->
   <section id="fusceAt">
     <div class="container">
       <div class="row">
-        <h2>Our News</h2>
-        <div class="co1-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="coll-md-12 col-lg-12 ">
+          <h2>Our News</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="co1-12 col-sm-12 col-md-4 col-lg-4 text-center wow slideInRight">
           <img src="assets/images/news1.png" class="img-fluid" alt="food">
-          <h3>Lorem ipsum</h3>
+          <h4>Lorem ipsum</h4>
           <p>Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel,
             pretium lobortis erat. Nulla vitae hendrerit odio.
           </p>
+          <button type="button" class="btn btn-light btn-read">Read More</button>
         </div>
-        <div class="co1-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="co1-12 col-sm-12 col-md-4 col-lg-4 text-center wow slideInDown">
           <img src="assets/images/news2.png" class="img-fluid" alt="food">
-          <h3>Lorem ipsum</h3>
+          <h4>Lorem ipsum</h4>
           <p>Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel,
             pretium lobortis erat. Nulla vitae hendrerit odio.
           </p>
+          <button type="button" class="btn btn-light btn-read">Read More</button>
         </div>
-        <div class="co1-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="co1-12 col-sm-12 col-md-4 col-lg-4 text-center wow slideInLeft">
           <img src="assets/images/news3.png" class="img-fluid" alt="food">
-          <h3>Lorem ipsum</h3>
+          <h4>Lorem ipsum</h4>
           <p>Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel,
             pretium lobortis erat. Nulla vitae hendrerit odio.
           </p>
+          <button type="button" class="btn btn-light btn-read">Read More</button>
         </div>
       </div>
     </div>
   </section>
-  <!-- Fusce at Section End -->
+  <!-- Fusce at/ News Section End -->
 
+  <!-- Facilisis / Newsletter Section Start -->
+  <section id="facilisis">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-4 text-center wow bounce">
+          <h3>Newsletter</h3>
+          <p>Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo,
+            ullamcorper non diam sit amet, luctus condimentum metus
+          </p>
+          <form>
+            <input type="email" placeholder="email address" class="form-control wow slideInRight">
+            <input type="submit" class="btn btn-light btn-facilisis wow slideInLeft" value="Sign Up">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Facilisis Section End -->
   <!-- Ante donec Section Start -->
   <section id="anteDonec">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-lg-8 offset-2 mx-auto">
-          <div class="co1-12 col-sm-12 col-md-6 col-lg-6">
-            <h3>Ipsum dolor sit amet</h3>
+          <div class="co1-12 col-sm-12 col-md-6 col-lg-6 align-self-center wow fadeInUp">
+            <h6>Ipsum dolor sit amet</h6>
             <p>Nam accumsan nunc sit amet elementum sollicitudin.
               Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
             </p>
@@ -150,20 +174,18 @@
               Nam accumsan nunc sit amet elementum sollicitudin.
               Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
             </p>
-            <button type="button" class="btn btn-light">Sign Up</button>
+            <button type="button" class="btn btn-sign-one">Sign Up</button>
           </div>
-          <div class="co1-12 col-sm-12 col-md-4 col-lg-4">
-            <img src="assets/images/offer1.png" class="img-fluid">
+          <div class="co1-12 col-sm-12 col-md-6 col-lg-6 wow fadeInDown">
+            <img src="assets/images/burger1.jpg" class="img-fluid">
           </div>
-        </div>
       </div>
       <div class="row">
-        <div class="col-md-8 col-lg-8 offset-2 mx-auto">
-          <div class="co1-12 col-sm-12 col-md-6 col-lg-6">
-            <img src="assets/images/offer1.png" class="img-fluid">
+          <div class="co1-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRight">
+            <img src="assets/images/burger2.jpg" class="img-fluid">
           </div>
-          <div class="co1-12 col-sm-12 col-md-6 col-lg-6">
-            <h3>Ipsum dolor sit amet</h3>
+          <div class="co1-12 col-sm-12 col-md-6 col-lg-6 align-self-center wow fadeInLeft">
+            <h6>Ipsum dolor sit amet</h6>
             <p>Nam accumsan nunc sit amet elementum sollicitudin.
               Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
             </p>
@@ -171,38 +193,47 @@
               Nam accumsan nunc sit amet elementum sollicitudin.
               Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
             </p>
-            <button type="button" class="btn btn-light">Sign Up</button>
+            <button type="button" class="btn btn-sign-two">Sign Up</button>
           </div>
-        </div>
       </div>
     </div>
   </section>
   <!-- Ante donec Section End -->
 
-  <!-- Facilisis Section Start -->
-  <section id="facilisis">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Newsletter</h2>
-          <p>Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo,
-            ullamcorper non diam sit amet, luctus condimentum metus</p>
-        </div>
-        <form>
-          <input type="email" placeholder="Email Address" class="form-group">
-          <input type="submit" class="btn btn-light" value="Sign Up">
-        </form>
-      </div>
-    </div>
-  </section>
-  <!-- Facilisis Section End -->
-
   <!-- Blandit Section Start -->
   <section id="blanditRhoncus">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Newsletter</h2>
+        <div class="col-md-10 col-lg-10 offset-md-2 offset-lg-2">
+          <div class="row text-center">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 wow rotateInDownLeft">
+              <ul>
+                <li><a href="#">Ad litora torquent</a></li>
+                <li><a href="#"> Per conubia</a></li>
+                <li><a href="#">  Nostra</a></li>
+                <li><a href="#">  Himenaeos</a></li>
+                <li><a href="#">  In consectetur  </a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 wow rotateInUpRight" >
+              <ul>
+                <li><a href="#">Ad litora torquent</a></li>
+                <li><a href="#"> Per conubia</a></li>
+                <li><a href="#">  Nostra</a></li>
+                <li><a href="#">  Himenaeos</a></li>
+                <li><a href="#">  In consectetur  </a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 wow rotateInUpLeft">
+              <ul>
+                <li><a href="#">Ad litora torquent</a></li>
+                <li><a href="#"> Per conubia</a></li>
+                <li><a href="#">  Nostra</a></li>
+                <li><a href="#">  Himenaeos</a></li>
+                <li><a href="#">  In consectetur  </a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -212,23 +243,31 @@
   <!-- Footer/Placerat Section Start -->
   <footer id="placerat">
     <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3 text-center wow lightSpeedIn">
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Try awsome tool for desgners symu.co</p>
+        </div>
+      </div>
     </div>
   </footer>
   <!-- Footer/Placerat Section Start -->
 
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Wow/Animate Js -->
-  <script src="vendor/wow/js/wow.min.js"></script>
+  <script type="text/javascript" src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
-  <script src="assets/js/scrolling-nav.js"></script>
+  <script type="text/javascript" src="assets/js/scrolling-nav.js"></script>
+
+  <!-- Wow/Animate Js -->
+  <script type="text/javascript" src="vendor/wow/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
 
